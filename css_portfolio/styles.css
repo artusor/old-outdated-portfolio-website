@@ -1,0 +1,173 @@
+/* COGS3 studyBuddy specific styles go here. */
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+#title {
+  background-color: #0278ae;
+  background-image: url(../images_portfolio/IMG_2601.JPG);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-bottom: 45px;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  font-size: 3rem;
+  line-height: 1.5;
+  /* color: #e79c2a;
+  color: #eebb4d;
+  color: #ffc93c; */
+  color: #ffcb74;
+  /* -webkit-text-stroke: 0.00001px yellow; */
+  text-shadow: -1px 0 yellow, 0 1px yellow, 1px 0 yellow, 0 -1px yellow;
+}
+
+h2 {
+  color: white;
+  font-family: "Montserrat";
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 1.5;
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.1rem;
+  font-weight: bold;
+}
+
+.navbar-item {
+  padding: 0 18px;
+}
+
+.navbar-link {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(20deg);
+  position: absolute;
+  margin: 13px;
+}
+
+#resume {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.resume-box {
+  text-align: center;
+  padding: 1%;
+}
+
+.icon {
+  color: #ef8712;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #0278ae;
+  cursor: pointer;
+}
+
+#works {
+  text-align: center;
+  background-color: #0278ae;
+  padding-bottom: 20px;
+}
+
+.carousel-title {
+  margin-top: 40px;
+  margin-bottom: 15px;
+  font-family: 'Lobster', cursive;
+  font-size: 38px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+  padding-top: 1%;
+}
+
+.works-image {
+  margin: 10px;
+  border-radius: 10%;
+}
+
+img.hand {
+  width: 60%;
+  height: auto;
+}
+
+#PandA {
+  padding: 90px;
+  text-align: center;
+}
+
+.PandA-header {
+  color: black;
+  margin-bottom: 50px;
+}
+
+.PandA-column {
+  padding: 3% 2%;
+}
+
+#timeline {
+  background-color: white;
+  padding: 100px;
+  text-align: center;
+}
+
+div.timeline a {
+  color: #0278ae;
+}
+
+#footer {
+  padding: 5% 15%;
+  text-align: center;
+  background-color: #0278ae;
+}
+
+.social-icon {
+  margin: 20px 15px;
+  color: white;
+}
+
+.social-icon:hover {
+  color: #ef8712;
+}
+
+@media (max-width: 991px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}

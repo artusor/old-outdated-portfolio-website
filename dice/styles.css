@@ -1,0 +1,79 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+body {
+  background-color: #282930;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  margin: 30px;
+  text-shadow: 5px 0 #232931;
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: #c6b497;
+  font-family: 'Texturina', serif;
+}
+
+h2, h3 {
+  margin: 30px;
+  font-size: 1rem;
+  font-weight: 350;
+  color: #c6b497;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+p {
+  color: #c6b497;
+  font-weight: 410;
+}
+
+/* This is an example of a CSS variable */
+img {
+  --die-dots-color: #9F5F80;
+}
+
+/* A common best practice is to define custom properties on the :root pseudo-class, so that it can be applied globally across your HTML document: */
+:root {
+  --die-dots-color: #9F5F80;
+}
+/* However, this doesn't always have to be the case: you may have a good reason for limiting the scope of your custom properties */
+
+img {
+  width: 80%;
+  background-color: var(--die-dots-color);
+  border-radius: 30%;
+  mix-blend-mode: hard-light;
+}
+
+
+.myBtn {
+  margin: 30px;
+  background-color: #62760c;
+  font-size: 0.9rem;
+  color: white;
+  font-family: 'Big Shoulders Stencil Display', cursive;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+.myBtn:hover {
+  width: 130px;
+  background-color: #335d2d;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 5%;
+  color: #92817a;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
